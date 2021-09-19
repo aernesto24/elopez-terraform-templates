@@ -1,17 +1,19 @@
 # Basic HTTP Web app with network infrastructure
 
 This terraform template creates the following items:
-    * 1 VPC
-    * 1 Internet Gateway
-    * 1 Route Table
-    * 1 Association between route table and Subnet
-    * 1 A security group that allows only 22,80,443 ports from my public IP only
-    * 1 Network interface
-    * 1 Elastic IP associated to the interface created previously
-    * 1 Web server instance 
-    * 1 Instance role that allows SSM Access
+* 1 VPC
+* 1 Internet Gateway
+* 1 Route Table
+* 1 Association between route table and Subnet
+* 1 A security group that allows only 22,80,443 ports from my public IP only
+* 1 Network interface
+* 1 Elastic IP associated to the interface created previously
+* 1 Web server instance 
+* 1 Instance role that allows SSM Access
 
 **NOTE** : For this template i used the one from Terraform Course * Automate your AWS cloud infrastructure and added some changes.
+
+- - - -
 
 To deploy this template to cloudformation:
 
