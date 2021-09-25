@@ -61,3 +61,8 @@ Apply a terraform template entering the value you defined in a variable inside t
     - you can apply it using terraform apply -var "instance_type=t3.micro"
 
 
+```
+terraform apply -var-file <name>.tfvars
+```
+This command apply a template using the variables defined in an specific file.
+- **Note** by default terraform look for a file named terraform.tfvars for variables but you can rename this file and send it to terraform
